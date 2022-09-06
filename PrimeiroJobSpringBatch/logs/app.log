@@ -1,0 +1,14 @@
+2022-08-30 18:17:37,296 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Starting PrimeiroJobSpringBatchApplication on DESKTOP-J81TNEE with PID 105136 (C:\MV\projetos\bacth\PrimeiroJobSpringBatch\target\classes started by Jessé in C:\MV\projetos\bacth\PrimeiroJobSpringBatch)
+2022-08-30 18:17:37,299 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-08-30 18:17:37,636 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-08-30 18:17:37,824 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-08-30 18:17:38,164 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-08-30 18:17:38,192 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-08-30 18:17:38,306 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-08-30 18:17:38,364 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Started PrimeiroJobSpringBatchApplication in 1.366 seconds (JVM running for 2.07)
+2022-08-30 18:17:38,441 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=1, -spring.output.ansi.enabled=always}]
+2022-08-30 18:17:38,489 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2022-08-30 18:17:38,515 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 24ms
+2022-08-30 18:17:38,532 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=1, -spring.output.ansi.enabled=always}] and the following status: [COMPLETED] in 66ms
+2022-08-30 18:17:38,534 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-08-30 18:17:38,590 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
